@@ -6,7 +6,7 @@
 # --- Required options --- #
 
 # Name of website
-title: Nagarjun Avaraddy
+title: "Nagarjun Avaraddy"
 
 # Your name to show in the footer
 author: Nagarjun Avaraddy
@@ -15,11 +15,11 @@ author: Nagarjun Avaraddy
 
 navbar-links:
   Home: "index"
-  Blog: "blog"
-  About: "about"
+  Blog: 
+    - Posts: "blog"
+    - Tags: "tags"
   Projects: "projects"
-  Tags: "tags"
-
+  About: "about"
 
 # --- Logo --- #
 
@@ -132,7 +132,7 @@ footer-link-col: "#404040"
 #gtag: ""
 
 # Fill in your Google Analytics ID to track your website using Google Analytics
-#google_analytics: ""
+google_analytics: "194485748"
 
 # Fill in your Cloudflare Analytics beacon token to track your website using Cloudflare Analytics
 #cloudflare_analytics: ""
